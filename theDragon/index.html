@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -10,41 +10,78 @@
     <div id="impress">
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <p>You are on a planet full of dragons. In front of you,</p>
-                <p>you see two caves. In one cave, the dragon is friendly</p>
-                <p>and will share his treasure with you. The other dragon</p>
-                <p>is greedy and hungry, and will eat you on sight.</p>
+                <!-- This is a test comment -->
+                <p>You are a an apprentice assassin task with your first mission. The target a high ranking military official.</p> 
+                <p>You know nothing about him but a brief description of what he looks like.</p>
+                <p>(A man with facial hair on his upper lip. A fake hair, a menacing attitude, and a dragon tattoo on his back)</p>
+
                 <br />
-                <p>Which cave do you go into?</p>
-                <p><a href="#cave1">CAVE 1</a></p>
-                <p>or</p>
-                <p><a href="#cave2">CAVE 2</a></p>
+                <p>Do you accept this mission? Click Begin</p>
+                <p><a href="#begin">Begin</a></p>
+               
             </div>
         </div>
 
-        <div id="cave1" class="step slide" data-x="1500">
+        <div id="begin" class="step slide" data-z="-51500">
             <div class="slide-text">
-                <p>You approach the cave, it is dark and spooky.</p>
-            <p>A large red dragon jumps out in front of you!</p>
-            <p>He opens his jaws and...</p>
-            <br />
-            <p>Gobbles you down with one bite!</p>
+                <p>You have reached the target destination;</p>
+                <p>An abandoned factory, secluded deep in the forest.</p>
+                <p>You notice that the security outside the factory is very tight.</p>
+                <br />
+                <p>Do you go through the front stealthily, or find a breach in the factory where security is thin?</p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#front">Front Gates</a>
+                <a href="#sewage">Sewage</a>
             </div> 
         </div> 
-
-        <div id="cave2" class="step slide" data-x="-1500">
+        
+        
+        <div id="front" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>You approach the cave, it is bright and cheerful.</p>
-                <p>A large white dragon approaches you...</p>
-                <p>And gives you his treasure.</p>
+                <p>Start Over?</p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#intro">Yes</a>
+                <a href="#gameover">No</a>
+                <a href="#intro">Yes (Bring some grenades while you're at it</a>
             </div> 
         </div>
+
+        <div id="sewage" class="step slide" data-x="3000">
+            <div class="slide-text">
+            </div> 
+            <div class="menu">
+                <a href="#check">Check</a>
+                <a href="#mission">Mission</a>
+                <a href="#weapon">Take out assassin weapons</a>
+            </div> 
+        </div>
+        
+        <div id="check" class="step slide" data-x="-2000">
+            <div class="slide-text">
+            </div> 
+            <div class="menu">
+            </div> 
+        </div>
+        
+<!--
+        <div id="mission" class="step slide" data-x="-200">
+            <div class="slide-text">
+            </div> 
+            <div class="menu">
+            </div> 
+        </div>
+-->
+        
+<!--
+        <div id="weapon" class="step slide" data-x="-1500">
+            <div class="slide-text">
+            </div> 
+            <div class="menu">
+            </div> 
+        </div>
+-->
 
     </div>
 
